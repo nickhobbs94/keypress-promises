@@ -1,3 +1,3 @@
-export * from './get-input';
-export * from './get-key';
-export * from './get-vim-cmd';
+export * from './get-input.js';
+export * from './get-key.js';
+export * from './get-vim-cmd.js';
