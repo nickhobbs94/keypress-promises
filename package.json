@@ -15,7 +15,8 @@
     "node": ">=20"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "clean": "rm *.tsbuildinfo && rm -rf dist"
   },
   "type": "module",
   "files": [
