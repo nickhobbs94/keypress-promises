@@ -1,6 +1,6 @@
 {
   "name": "keypress-promises",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Await a single keypress from the terminal user",
   "keywords": [
     "ui"
