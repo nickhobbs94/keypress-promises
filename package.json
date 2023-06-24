@@ -23,5 +23,10 @@
     "dist/"
   ],
   "main": "dist/index.js",
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickhobbs94/keypress-promises.git"
+  },
+  "homepage": "https://github.com/nickhobbs94/keypress-promises"
 }
