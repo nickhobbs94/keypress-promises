@@ -1,6 +1,6 @@
 import * as readline from 'node:readline';
 
-type KeyPressEvent = {sequence: string, name: string, ctrl: boolean, meta: boolean, shift: boolean};
+export type KeyPressEvent = {sequence: string, name: string, ctrl: boolean, meta: boolean, shift: boolean};
 
 export async function getKey(): Promise<KeyPressEvent> {
   const { stdin , stdout} = await import('node:process');
@@ -28,7 +28,7 @@ export async function getInput(prompt = ''): Promise<string> {
     return result;
 }
 
-type VimCommand = {key: string, amount: number}
+export type VimCommand = {key: string, amount: number}
 
 export async function getVimCommand (): Promise<VimCommand> {
   let command: Partial<VimCommand> = {key: '', amount: undefined};
